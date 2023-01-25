@@ -1,16 +1,30 @@
-# weather_app
+<h1 align="center" id="title">Weather App</h1>
 
-A new Flutter project.
+<p id="description">this is a weather app with a lot of knowledge which i learnt in flutter</p>
 
-## Getting Started
+  
+  
+<h2>🧐 Features</h2>
 
-This project is a starting point for a Flutter application.
+Here're some of the project's best features:
 
-A few resources to get you started if this is your first Flutter project:
+*   get your city by location detect as a first page
+*   you can search for any city you like
+*   Show City Tempreture
+*   Show Country Flag
+*   Show Specific Icons and Images for every temp status
+*   Show Wind Speed
+*   Show Cloud Precentage
+*   A Friendly User Application
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+  
+  
+<h2>💻 Built with</h2>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Technologies used in the project:
+
+*   Location Detect
+*   Open Weather Map API
+*   Navigation
+*   State Managment with Provider
+*   Http Request
