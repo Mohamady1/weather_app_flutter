@@ -15,10 +15,10 @@ class Button extends StatefulWidget {
 class _ButtonState extends State<Button> {
   var ready = true;
   Future<void> goToApp() async {
-    setState(() {
-      ready = false;
-    });
     await Location().getLocation().then((value) {
+      setState(() {
+        ready = false;
+      });
       Provider.of<DataProvider>(context, listen: false)
           .setCoords(value.latitude!, value.longitude!);
       ready = true;
