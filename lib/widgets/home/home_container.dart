@@ -65,7 +65,7 @@ class _HomeContainerState extends State<HomeContainer> {
                 padding: const EdgeInsets.all(10),
                 child: Column(
                   children: [
-                    const SearchBar(),
+                    const CustomSearchBar(),
                     const SizedBox(
                       height: 25,
                     ),
@@ -103,7 +103,7 @@ class _HomeContainerState extends State<HomeContainer> {
                     FadeInImage(
                       placeholder: const AssetImage("assets/images/flag.png"),
                       image: NetworkImage(
-                          "https://countryflagsapi.com/png/${weather.result["country"]}"),
+                          "https://flagcdn.com/48x36/${weather.result["country"].toLowerCase()}.png"),
                       width: double.infinity,
                       height: 87,
                       fit: BoxFit.contain,
