@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Weather App</h1>
 
-<p id="description">this is a weather app with a lot of knowledge which i learnt in flutter</p>
+<p id="description">this is a weather app with flutter</p>
 
   
   
